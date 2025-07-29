@@ -11,7 +11,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, recall_score
 
 
-df = pd.read_csv('FOOD-DATA-GROUP5.csv')
+df = pd.read_csv('FOOD-DATA.csv')
 print(df.head())
 print(df.info())
 print(df.describe())
